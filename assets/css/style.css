@@ -1,8 +1,10 @@
-html { background-color: #000; 
-} 
+html {
+    background-color: #000;
+}
+
 body {
     min-height: 100vh;
     max-width: 100%;
-    background-color: aliceblue; 
+    background-color: aliceblue;
     margin: 0 auto;
 }

@@ -9,7 +9,7 @@
             <div class="modal-body">
                 <form action="actualizar.php" method="post" enctype="multipart/form-data">
 
-                <input type="hidden" id="id" name="id">
+                    <input type="hidden" id="id" name="id">
 
                     <div class="mb-3">
                         <label for="nombre" class="form-label">Nombre</label>
@@ -32,7 +32,7 @@
                         <input type="text" name="edad" id="edad" class="form-control" required>
                     </div>
                     <div class="mb-3">
-                        <label for="fechadenacimiento" class="form-label">Fecha de nacimiento</label>
+                        <label for="fechadenacimiento" class="form-label">Fecha de nacimiento (YYYY-MM-DD)</label>
                         <input type="text" name="fechadenacimiento" id="fechadenacimiento" class="form-control"
                             required>
                     </div>
